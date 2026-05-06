@@ -297,17 +297,22 @@ nav i {
 
 #kemampuan-bahasa th, td {
   padding: 6px 10px;
+  background-color: rgba(255, 255, 255, 0.082);
 }
 
-#kemampuan-bahasa th:nth-child(1) {
-  width: 70px;
+#kemampuan-bahasa th {
+  text-align: center;
+  background-color: rgba(123, 255, 0, 0.21);
+}
+
+#kemampuan-bahasa td:nth-child(1) {
+  width: 15%;
 }
 
 #kemampuan-bahasa td:nth-child(2) {
   text-align: center;
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  width: 25%;
 }
 
 #kemampuan-bahasa td:nth-child(2) img {
@@ -317,6 +322,7 @@ nav i {
 #kemampuan-bahasa th:nth-child(3) {
   width: 60%;
 }
+
 
 #kemampuan-bahasa progress-meter {
   display: block;
@@ -404,24 +410,27 @@ nav i {
 
 #penguasaan-software th, td {
   padding: 6px 10px;
+  background-color: rgba(255, 255, 255, 0.082);
 }
 
-#penguasaan-software th:nth-child(1) {
-  width: 200px;
+#penguasaan-software th {
+  text-align: center;
+  background-color: rgba(123, 255, 0, 0.21);
+}
+
+#penguasaan-software td:nth-child(1) {
+  overflow: hidden;
+  width: 5%;
 }
 
 #penguasaan-software td:nth-child(2) {
   overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  width: 20%;
 }
 
-#penguasaan-software td:nth-child(2) img {
-  border: 1.5px solid white;
-}
-
-#penguasaan-software th:nth-child(3) {
-  width: 50%;
+#penguasaan-software td:nth-child(3) {
+  overflow: hidden;
+  width: 40%;
 }
 
 #penguasaan-software progress-meter {
@@ -461,6 +470,29 @@ nav i {
   right: -1rem;
   bottom: -0.9rem;
 }
+
+#bahasa-pemprograman {
+  width: auto;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.774);
+  box-shadow: 0px 0px 10px 1px #f6c65d69;
+} 
+
+#bahasa-pemprograman .bhs {
+  display: flex;
+}
+
+#bahasa-pemprograman div div{
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+
 
 @media only screen and (max-width : 1024px) {
 
